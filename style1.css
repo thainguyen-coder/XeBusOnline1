@@ -1,0 +1,92 @@
+body {
+	background: #EEEEEE;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	font-size: 0.9em;
+	line-height: 1.5em;
+}
+#main {
+	width: 1500px;
+	height: 900px;
+	margin: 0 auto;
+}
+#head {
+	height: 120 px;
+	background:#0b577a;
+	color: #fff;
+}
+#head h1{
+	margin: 0;
+	padding: 5px 17px;
+	font-family: "Time New Roman";
+	font-size: 1.3em;
+}
+#head h2{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: "Time New Roman";
+	font-size: 1.3em;
+}
+#head h3{
+	margin: 0;
+	padding: 5px 15px;
+	font-family: "Time New Roman";
+	font-size: 1.3em;
+}
+#menutop {
+	height: 40px;
+	background: #036ea0;
+	color: #fff;
+}
+#menutop ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#menutop ul li a{
+	float: left;
+	text-decoration: none;
+	color: white;
+	padding: 10px 100px;
+	font-weight: bold;
+}
+#
+#maincontent{
+
+	padding: 500px 1400px;
+	width: 100%;
+}
+#content{
+	float: left;
+	width: 200px;
+	height: 800px
+}
+#right {
+	float: right;
+	margin-right: -100%;
+	width: 300px;
+	background: #fff;
+
+}
+#footer {
+	clear: both;
+	background: #144d68;
+	color: white;
+
+}
+#feeback{
+	background: #ebebeb;
+    padding: 1px 3px 1px !important;
+    width: 1500px;
+}
+#f1{
+	width: 1500px;
+	height: 900px;
+	margin: 0 auto;
+}
+#id span {
+	padding-left: 10px;
+    padding: 10px;
+    margin: 20px;
+}
