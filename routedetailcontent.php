@@ -4,9 +4,10 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title></title>
-		<link rel="stylesheet" href="">
+		<link rel="stylesheet" href="style3.css">
 	</head>
 	<body>
+		<div id="tt">
 		<form id="detail">
 			<span>Thông tin</span> <br>
 			<span> Mã tuyến:
@@ -149,32 +150,7 @@
 				
 			</ul>
 		</form>
-		<div id="left">
-			<th>Lộ trình</th>
+	</div>
 
-			<div class="container">
-				<span>Đi đến:</span>
-				<select >
-					<?php 
-
-					include 'config.php';
-					$id = isset($_GET['id']) ? $_GET['id'] : '';
-								//cau len sql 
-					$query = "select * from route_setting where routeId = '$id' ";
-								//xu li cau lenh sql
-					$result = mysqli_query($conn, $query);
-					while($row = mysqli_fetch_array($result))
-					{
-
-						echo '<option value="">';
-						echo $row['name']."<br>";
-						echo '</option>';
-					}	
-
-					?>
-
-				</select>
-			</div>
-		</div>
 	</body>
 	</html>

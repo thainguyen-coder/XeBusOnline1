@@ -16,7 +16,6 @@
 				<li><a href="?options=trangchu">Trang chủ</a></li>
 				<li><a href="?options=gioithieu">Giới thiệu</a></li>
 				<li><a href="?options=thongtin">Thông tin tuyến</a></li>
-				<li><a href="?options=timduong">Tìm đường</a></li>
 				<li><a href="?options=phananh">Phản ánh</a></li>
 			</ul>
 		</div>
