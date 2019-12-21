@@ -7,9 +7,11 @@
 		<link rel="stylesheet" href="style1.css">
 	</head>
 	<body>
+	
 		<div id="head"><!-- phan banner -->
-			<h1 style="text-align: center;color: #00CC00;background: #EEEEEE">Hỗ trợ người đi xe buýt</h1>
-			<h2 style="text-align: center;color: #00CC00;background: #EEEEEE">tại TP.QUY NHƠN </h2>
+
+			<h1 style="text-align: center;color: #00CC00;background: #EEEEEE;font-size: 20px">Hỗ trợ người đi xe buýt<br>tại TP QUY NHƠN</h1>
+			
 		</div>
 		<div id="menutop">
 			<ul>

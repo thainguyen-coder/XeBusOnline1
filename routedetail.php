@@ -72,7 +72,7 @@
 		#detail{
 			height: auto;
 			width: 1280px;
-			padding: 5px 10px;
+			padding: 5px 30px;
 		}
 		#infor{
 			height: 500px;
@@ -99,8 +99,9 @@
 		#a1{
 			text-align: center;
 		}
-		#p1{
+		#row{
 			border: 1px solid red;
+			width: 500px;
 		}
 	</style>
 	<body>

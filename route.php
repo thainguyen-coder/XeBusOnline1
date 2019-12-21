@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -209,12 +207,17 @@
 		
 	</div>
 	<div id="divResult" class="x" style="height: auto !important;">
-		<form id="form" action="route_detail.php" method="GET">
+		<form id="form" action="route_detail.php" method="GET" align="center">
 			<li>
 				<!--<th width="300px" align="center"> Mã tuyến</th> -->
 				<h3> Tên tuyến</h3>
 
-				<table border="3px solid red ;" align="center" class="table" style="background: #00CC99;width: 500px;">
+				<table border="2px solid red ;" align="center" class="table" style="font-size: medium;
+				text-align: center;
+				background: #FFFFFF;
+				width: 510px;
+				height: 500px;
+				    margin-left: 500px;">
 
 					<?php 
 

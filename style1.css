@@ -1,15 +1,34 @@
 body {
 	background: #EEEEEE;
 	margin: 0;
-	padding: 0;
+	padding: 8px;
 	font-family: Verdana;
 	font-size: 0.9em;
-	line-height: 1.5em;
+
 }
 #main {
 	width: 1500px;
 	height: 900px;
 	margin: 0 auto;
+	
+	
+	background-color: #bcc34a00;
+
+}
+.portalName{
+	margin-left: -70px;
+	color: #101b9d;
+    font-size: 30px;
+    padding-left: -30px;
+    display: inline-block;
+    white-space: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align:20px;
+    padding-top: 3px;
+    margin-top: 20px;
+
 }
 #head {
 	height: 120 px;
@@ -46,9 +65,10 @@ body {
 }
 #menutop ul li a{
 	float: left;
+	font-size: 18px;
 	text-decoration: none;
 	color: white;
-	padding: 10px 100px;
+	padding: 10px 130px;
 	font-weight: bold;
 }
 #
@@ -59,8 +79,7 @@ body {
 }
 #content{
 	float: left;
-	width: 200px;
-	height: 800px
+	
 }
 #right {
 	float: right;
@@ -89,4 +108,13 @@ body {
 	padding-left: 10px;
     padding: 10px;
     margin: 20px;
+}
+.like{
+	padding-top: 15px
+		width: 124px;
+		height: 80px;
+		float: left;
+		color: #34B67A;
+		margin-top: 15px;
+		margin-left: 15px;
 }

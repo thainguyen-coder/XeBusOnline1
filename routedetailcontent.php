@@ -4,12 +4,12 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<title></title>
-		<link rel="stylesheet" href="style3.css">
+		<link rel="stylesheet" href="style1.css">
 	</head>
 	<body>
 		<div id="tt">
 		<form id="detail">
-			<span>Thông tin</span> <br>
+			<span><h4>Thông tin</h4></span> <br>
 			<span> Mã tuyến:
 
 				<?php 
@@ -76,7 +76,7 @@
 				
 				?>
 			</span> <br>
-			<span>Đơn vị đảm nhận: </span> <br>
+		
 			<ul>
 				<li>Thời gian hoạt động:
 
@@ -124,7 +124,7 @@
 					$result = mysqli_query($conn, $query);
 					while($row = mysqli_fetch_array($result))
 					{
-						echo $row['routeLenght'];
+						echo $row['routeLenght']."km";
 					}
 					
 					?>
